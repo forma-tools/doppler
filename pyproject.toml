@@ -1,0 +1,11 @@
+[tool.forma]
+name = "doppler"
+description = "Doppler secrets management - projects, environments, secrets, configs"
+command = "doppler"
+origin = "vendor"
+status = "stable"
+auth = "oauth2"
+resources = ["secrets", "projects", "environments", "configs", "logs"]
+install = "brew install doppler"
+update = "brew upgrade doppler"
+repo = "https://github.com/DopplerHQ/cli"
